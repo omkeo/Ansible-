@@ -1,6 +1,6 @@
 ---
 - name: FIrst Playbook
-  hosts: all
+  hosts: localhost
   become: yes
   tasks:
   - name: my first server
@@ -12,5 +12,4 @@
     apt:
      name: tree
      state: latest
-  
 ...
