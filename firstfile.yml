@@ -1,6 +1,6 @@
 ---
 - name: Simple Web Server Setup
-  hosts: all
+  hosts: 43.201.34.41
   become: yes  
 
   tasks:
